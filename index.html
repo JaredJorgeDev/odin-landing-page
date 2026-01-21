@@ -1,14 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Odin Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Header Logo</div>
+            <nav class="nav">
+                <a href="#info">header link one</a>
+                <a href="#cta">header link two</a>
+                <a href="#footer">header link three</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>This website is awesome</h1>
+                <p class="segundotext">
+                    This website has some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast.
+                </p>
+                <button class="botonsignup">Sign up</button>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="https://cataas.com/cat" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFO -->
+    <section id="info" class="info">
+        <h2 class="randomtext">Some random information.</h2>
+
+        <div class="info-cards">
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote">
+        <p class="quote-text">
+            This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually read it.
+            Who knows? All i know is that it looks nice.
+        </p>
+        <p class="quote-author">- Thor, God of Thunder</p>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section id="cta" class="cta">
+        <div class="cta-container">
+            <div class="cta-text">
+                <h3>Call to action! It's time!</h3>
+                <p class="cta-subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="botonsignup2">Sign up</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+
 </body>
 
 </html>
